@@ -1,0 +1,29 @@
+{
+    "name": "yosmy/twilio-phone-verification-process",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "yosmy/phone-verification-process": "@dev",
+        "yosmy/error": "@dev",
+        "yosmy/http": "@dev"
+    },
+    "require-dev": {
+        "symfony/debug": "~4",
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\": [
+                "src"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
